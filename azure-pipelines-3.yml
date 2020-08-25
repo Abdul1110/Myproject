@@ -1,4 +1,10 @@
 # Maven
+- task: Application security testing@2020
+  inputs:
+    projectName: 'test VSTS'
+    enableSastScan: true
+    CheckmarxService: 'CxSAST 9.0'
+    enableDependencyScan: false
 # Build your Java project and run tests with Apache Maven.
 # Add steps that analyze code, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/java
