@@ -17,3 +17,9 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
+- task: Application security testing@2020
+  inputs:
+    projectName: 'testvsts2020'
+    enableSastScan: true
+    CheckmarxService: 'CxSAST 9.0'
+    enableDependencyScan: false
