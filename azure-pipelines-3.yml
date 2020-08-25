@@ -1,5 +1,5 @@
 # Maven
-- task: Application security testing@2020
+- task: Application security testing2020
   inputs:
     projectName: 'test VSTS'
     enableSastScan: true
