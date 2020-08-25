@@ -1,8 +1,8 @@
 # Starter pipeline
 - task: Security static source code analysis@88
   inputs:
-    CheckmarxService: 'ABD'
-    projectName: 'test VSTS'
+    CheckmarxService: 'checkmarx'
+    projectName: 'test VSTS new'
     preset: 'Checkmarx Default'
     fullTeamName: 'CxServer\SP\Company'
     incScan: false
